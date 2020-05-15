@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilepic"
+        android:layout_width="165dp"
+        android:layout_height="164dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/profilepic" />
+
+    <TextView
+        android:id="@+id/txtHobbies"
+        android:layout_width="124dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="235dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center"
+        android:text="HOBBIES"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imgController"
+        android:layout_width="149dp"
+        android:layout_height="149dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginBottom="212dp"
+        android:tint="@color/colorGray"
+        app:srcCompat="@drawable/controller" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="149dp"
+        android:layout_height="149dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="212dp"
+        android:tint="@color/colorGray"
+        app:srcCompat="@drawable/bed" />
+
+    <TextView
+        android:id="@+id/txtGames"
+        android:layout_width="79dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="71dp"
+        android:layout_marginBottom="161dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center"
+        android:text="GAMES"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtSleep"
+        android:layout_width="79dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginBottom="161dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center"
+        android:text="SLEEP"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="230dp"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="178dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_toEndOf="@+id/profilepic"
+        android:layout_toRightOf="@+id/profilepic"
+        android:gravity="center"
+        android:text="Afri Suhendra yaitu mahasiswa UNIKOM Fakultas Teknik Informatika"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
